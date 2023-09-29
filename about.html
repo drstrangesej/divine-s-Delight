@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Divine's Delight</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+/*above code is boiler plate for all css*/
+header{
+    background-color:black;
+    padding: 0.8em;
+}
+nav ul li a{
+    text-decoration: none;
+    /* list-style: none; */
+    color: azure;
+
+}
+ul{
+    display: flex;  /*parent*/
+    list-style: none;
+    justify-content: space-around;  /*x axis(parent)*/
+    align-items: center;    /*y axis (parent)*/
+}
+
+li{
+    margin: 2em;
+
+}
+nav{
+    background-color: grey;
+}
+nav ul li{
+    margin:1em;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    height: 100vh;
+    background-color: black;
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    font-family: 'Times new Roman'; 
+}
+img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: white;
+    color:black;
+    height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p{
+    text-align: center;
+}
+@media screen  and (max-width:480px){
+    img{
+        height:50vh;
+        margin-bottom: 1em;
+    }
+    main{
+        padding-bottom: 0.5em;
+    }
+    
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>
+                <br>initiated ~ 2020
+                <br><i>Welcome to Divine's Delight, your go-to place for delectable cakes that will delight your taste buds and bring joy to your celebrations. With a passion for baking and an emphasis on quality ingredients, we create cakes that not only look amazing but taste heavenly too.</i></p>
+            <br><i>At Divine's Delight, we believe that every celebration deserves a special touch, and our cakes are designed to make your moments truly memorable. Whether it's a birthday, anniversary, wedding, or any other occasion, our cakes will add sweetness and joy to your festivities.</i></p>
+            <img src="aboutus.jpg" alt="about" width="200" height="300">
+        </div>
+        
+    </main>
+
+    <footer>
+        <p><b>Contact</b> - 98XX67XX4X <br><b>Address</b> <br><i>Room no 54, Shantiniketan building, Near Kabutar khana, Ghatkopar east, Mumbai, Maharashtra 400077</i><br>&copy; 2023 Divine's Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+

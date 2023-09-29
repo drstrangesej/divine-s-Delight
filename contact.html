@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Divine's Delight</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+/*above code is boiler plate for all css*/
+header{
+    background-color:black;
+    padding: 0.8em;
+}
+nav ul li a{
+    text-decoration: none;
+    /* list-style: none; */
+    color: azure;
+
+}
+ul{
+    display: flex;  /*parent*/
+    list-style: none;
+    justify-content: space-around;  /*x axis(parent)*/
+    align-items: center;    /*y axis (parent)*/
+}
+
+li{
+    margin: 2em;
+
+}
+nav{
+    background-color: grey;
+}
+nav ul li{
+    margin:1em;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+        body {
+            font-family: 'Cinzel Decorative';
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: navy;
+            margin: 0;
+            font-family: 'Geneva';
+            background-color: bisque;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: lightblue;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        
+}
+footer{
+    background-color: black;
+    color:bisque;
+    height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p{
+    text-align: center;
+}
+@media screen  and (max-width:480px){
+    img{
+        height:7vh;
+        margin-bottom: 1.5em;
+
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <h3><br><br><i>Social Media </i></h3>
+        <h2><br><a href="https://www.javatpoint.com/what-is-robotics" target="_blank"><img src="insta.jpeg"
+            height="40vh" width="40"></a></h2>
+    </main>
+
+    <footer>
+        <p><b>Contact</b> - 98XX67XX4X <br><b>Address</b> <br><i>Room no 54, Shantiniketan building, Near Kabutar khana, Ghatkopar east, Mumbai, Maharashtra 400077</i><br>&copy; 2023 Divine's Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
